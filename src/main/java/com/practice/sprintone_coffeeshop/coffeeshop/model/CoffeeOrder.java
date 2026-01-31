@@ -1,6 +1,5 @@
-package com.coffeeshop.model;
+package com.practice.sprintone_coffeeshop.coffeeshop.model;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

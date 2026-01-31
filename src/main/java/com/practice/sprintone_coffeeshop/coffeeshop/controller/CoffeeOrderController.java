@@ -1,7 +1,7 @@
-package com.coffeeshop.controller;
+package com.practice.sprintone_coffeeshop.coffeeshop.controller;
 
-import com.coffeeshop.model.CoffeeOrder;
-import com.coffeeshop.service.CoffeeOrderService;
+import com.practice.sprintone_coffeeshop.coffeeshop.model.CoffeeOrder;
+import com.practice.sprintone_coffeeshop.coffeeshop.service.CoffeeOrderService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

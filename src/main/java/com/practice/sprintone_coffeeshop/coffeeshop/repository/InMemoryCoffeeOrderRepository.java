@@ -1,6 +1,6 @@
-package com.coffeeshop.repository;
+package com.practice.sprintone_coffeeshop.coffeeshop.repository;
 
-import com.coffeeshop.model.CoffeeOrder;
+import com.practice.sprintone_coffeeshop.coffeeshop.model.CoffeeOrder;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package com.coffeeshop.repository;
+package com.practice.sprintone_coffeeshop.coffeeshop.repository;
 
-import com.coffeeshop.model.CoffeeOrder;
+import com.practice.sprintone_coffeeshop.coffeeshop.model.CoffeeOrder;
 
 import java.util.List;
 import java.util.Optional;

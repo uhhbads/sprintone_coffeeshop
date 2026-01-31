@@ -1,7 +1,7 @@
-package com.coffeeshop.service;
+package com.practice.sprintone_coffeeshop.coffeeshop.service;
 
-import com.coffeeshop.model.CoffeeOrder;
-import com.coffeeshop.repository.CoffeeOrderRepository;
+import com.practice.sprintone_coffeeshop.coffeeshop.model.CoffeeOrder;
+import com.practice.sprintone_coffeeshop.coffeeshop.repository.CoffeeOrderRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
