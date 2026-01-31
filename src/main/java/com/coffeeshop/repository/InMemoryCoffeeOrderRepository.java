@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Repository
 public class InMemoryCoffeeOrderRepository implements CoffeeOrderRepository{
-    private List<CoffeeOrder> coffeeOrders = new ArrayList<>();
+    private final List<CoffeeOrder> coffeeOrders = new ArrayList<>();
     private final AtomicLong idGenerator = new AtomicLong(1);
 
     @Override
