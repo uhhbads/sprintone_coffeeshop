@@ -26,6 +26,12 @@ public class CoffeeOrder {
         this.orderTime = orderTime;
     }
 
+    public CoffeeOrder(String customerName, String coffeeSize, double price) {
+        this.customerName = customerName;
+        this.coffeeSize = coffeeSize;
+        this.price = price;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
