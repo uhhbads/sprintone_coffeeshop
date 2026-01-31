@@ -17,18 +17,19 @@ public class CoffeeOrder {
 
     public CoffeeOrder(){}
 
-    public CoffeeOrder(Long id, String customerName, String coffeeSize, Double price, LocalDateTime orderTime) {
+    public CoffeeOrder(Long id, String customerName, String coffeeSize, Double price) {
         this.id = id;
         this.customerName = customerName;
         this.coffeeSize = coffeeSize;
         this.price = price;
-        this.orderTime = orderTime;
+        this.orderTime = LocalDateTime.now();
     }
 
     public CoffeeOrder(String customerName, String coffeeSize, double price) {
         this.customerName = customerName;
         this.coffeeSize = coffeeSize;
         this.price = price;
+        this.orderTime = LocalDateTime.now();
     }
 
     @Override
